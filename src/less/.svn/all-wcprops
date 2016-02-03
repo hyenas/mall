@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/wlt-wap/!svn/ver/283/branches/wlt_wap_dev_1.0.0/app_js/wanlitong/v40/wap/mall/src/less
+END
+mixin.common.less
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/wlt-wap/!svn/ver/236/branches/wlt_wap_dev_1.0.0/app_js/wanlitong/v40/wap/mall/src/less/mixin.common.less
+END
+var.common.less
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/wlt-wap/!svn/ver/273/branches/wlt_wap_dev_1.0.0/app_js/wanlitong/v40/wap/mall/src/less/var.common.less
+END
+reset.less
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/wlt-wap/!svn/ver/283/branches/wlt_wap_dev_1.0.0/app_js/wanlitong/v40/wap/mall/src/less/reset.less
+END
+search.less
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/wlt-wap/!svn/ver/283/branches/wlt_wap_dev_1.0.0/app_js/wanlitong/v40/wap/mall/src/less/search.less
+END
+cart.less
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/wlt-wap/!svn/ver/273/branches/wlt_wap_dev_1.0.0/app_js/wanlitong/v40/wap/mall/src/less/cart.less
+END

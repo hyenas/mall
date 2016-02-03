@@ -1,0 +1,38 @@
+/**
+ * 多选框
+ */
+import './checkbox.less';  // 搜索模块样式
+import React from 'react';
+import { render } from 'react-dom';
+
+
+const Checkbox = React.createClass({
+	getInitialState: function() {
+		return {
+			checked: this.props.checked ? 'checked' : 'unchecked'
+		}
+	},
+	componentDidMount: function() {
+	},
+	toggleChecked: function(){
+		if(this.state.checked === 'checked'){
+			this.setState({checked:'unchecked'});
+		}
+		else{
+			this.setState({checked:'checked'});
+		}
+
+		if(typeof this.props.action == 'function'){
+			this.props.action();
+		}
+	},
+	render: function() {
+	    return(
+	 		<div className= {'checkbox ' + this.state.checked} onClick={this.toggleChecked}>
+	 		</div>
+	 	)
+	}
+})
+
+
+export default Checkbox;

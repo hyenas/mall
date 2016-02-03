@@ -1,0 +1,73 @@
+@import url('../../less/mixin.common.less');
+
+.cartShopList{
+	background-color: #fff;
+	padding: 0 .28rem;
+	margin-bottom: .2rem;
+	border-top: @border;
+	border-bottom: @border;
+	font-size: .28rem;
+	.header{
+		height: .64rem;
+	}	
+
+	.checkbox{
+		display: inline-block;
+		margin: .12rem .3rem  .12rem 0;
+	}	
+
+	.header p{
+		display: inline-block;
+		position: absolute;
+		padding: .1rem;
+		color: #424251;
+		line-height: .4rem;
+		width: 6rem;
+		border-bottom: @border;
+	}
+}
+
+.goodsList{
+	@width: 6rem;
+	@height: 3rem;
+	@paddingHeight: .35rem;
+	@contentHeight: @height - @paddingHeight * 2;
+	@leftWidth: 1.6rem;
+	@rightWidth: @width - @leftWidth;
+
+	height: @height;
+
+	.checkbox{
+		display: inline-block;
+		margin: 1.3rem .3rem  1.3rem 0;
+	}
+	.goods{
+		display: inline-block;
+		position: absolute;
+		height: 2.3rem;
+		padding: @paddingHeight .1rem;
+		border-bottom: @border;
+		width: 6rem;
+		div{
+			display: inline-block;
+			height: @contentHeight;
+		}
+		.left-block{
+			position: absolute;
+			width: @leftWidth;
+		}
+		.right-block{
+			position: absolute;
+			right: .1rem;
+			width: @rightWidth;
+		}
+		.image{
+			position: absolute;
+			top: 0;
+			width: @leftWidth;
+			height: @leftWidth;
+			border: @border;
+		}
+	}
+
+}

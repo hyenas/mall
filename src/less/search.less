@@ -1,0 +1,85 @@
+@import url('./mixin.common.less');
+
+.search{
+	.rem(font-size, 0.28);
+	ul{
+		li{
+
+		}
+	}
+	.input-keyword{
+		.input-keyword-content{
+			.rem(padding, 0.25);
+			border-bottom: 0.01rem solid #ccc;
+			box-shadow: 0 0.10rem 0.08rem #eee;
+			i{
+				
+				display: inline-block;
+				text-indent: -99999rem;
+				vertical-align: middle;
+			}
+			.icon-clear{
+				display: none;
+				width: 0.29rem;
+				height: 0.29rem;
+				position: absolute;
+				right: 0.80rem;
+				//background-image: url('../img/icon-clear.svg');
+				background-repeat: no-repeat;
+				background-size: 0.28rem 0.28rem;
+			}
+			.icon-arrow-close{
+				width: 0.18rem;
+				height: 0.32rem;
+				position: absolute;
+				right: 0.40rem;
+				//background-image: url('../img/icon-arrow-close.svg');
+				background-repeat: no-repeat;
+				background-size: 0.18rem 0.32rem;
+			}
+			input{
+				.rem(font-size, 0.24);
+				width: 100%;
+				border: none;
+			}
+		}
+	}
+	.search-box{
+		.rem(padding, 0.45);
+		.search-row{
+			h3{
+				color: #333;
+				.rem(font-size, 0.28);
+				font-weight: normal;
+				margin-bottom: 0.3rem;
+				i{
+					width: 0.35rem;
+					height: 0.40rem;
+					display: inline-block;
+					text-indent: -99999rem;
+					vertical-align: middle;
+					float: right;
+				}
+				.icon-del{
+					//background-image: url('../img/icon-del.svg');
+					background-repeat: no-repeat;
+					background-size: 0.35rem 0.40rem;
+				}
+			}
+			ul{
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: flex-start;
+				li{
+					margin:0 0.3rem 0.3rem 0;
+					a{
+						display: inline-block;
+						padding: 0.15rem 0.25rem;
+						color: #666;
+						background: #f9f9f9;
+					}
+				}
+			}
+		}
+	}
+}

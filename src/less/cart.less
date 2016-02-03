@@ -1,0 +1,30 @@
+@import url('./mixin.common.less');
+
+@color1: #666666;
+
+.cart{
+	background-color: @bgColor;
+	margin-bottom: 1.2rem;
+	#footer{
+		position:fixed;
+		bottom:0;
+		width: 100%;
+		height: 0.98rem;
+		background:@bgColor;
+	}	
+
+	#footer .checkbox{
+		position: absolute;
+		top: .25rem;
+		left: .28rem;
+	}	
+
+	#footer label{
+		position: absolute;
+		color: @color1;
+		font-size: .24rem;
+		top:.33rem;
+		left: 1.05rem;
+		line-height: .33rem;
+	}
+}

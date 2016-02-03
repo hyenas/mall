@@ -1,0 +1,10 @@
+@import url('./var.common.less');
+
+.rem (@property, @value) {
+  @px-fallback: @value * @fontRoot;
+  -: ~`(function () { return ';@{property}: @{px-fallback}'; }())`;
+  -: ~`(function () { return ';@{property}: @{value}rem'; }())`;
+}
+
+
+

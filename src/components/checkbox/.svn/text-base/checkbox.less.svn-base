@@ -1,0 +1,39 @@
+@import url('../../less/mixin.common.less');
+
+.checkbox{
+	position: relative;
+	width: @cbSize;
+	height: @cbSize;
+	border: .04rem solid #CBCBCF;
+	border-radius: .04rem;
+	opacity: 100%;
+
+}
+
+.unchecked{
+}
+
+.checked{
+	border: .04rem solid #444;
+	background-color: #444;
+
+}
+
+.checked:after {
+	content: '';
+	position: absolute;
+	width: .24rem;
+	height: .12rem;
+	background: transparent;
+	top: .04rem;
+	left: .01rem;
+	border: .04rem solid #fff;
+	border-top: none;
+	border-right: none;
+ 
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}

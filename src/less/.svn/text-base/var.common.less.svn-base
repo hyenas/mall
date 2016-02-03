@@ -1,0 +1,20 @@
+/* 定义全局变量 */
+
+
+@fontRoot: 100px;
+
+//background color
+@bgColor: #F7F7F7;
+
+
+//colors
+@active-red: #F22D47;
+@active-blue: #49A6FF;
+@negative-blue: #A4D3FF;
+
+//border
+@border: solid 1px #DDDDDD;
+
+
+//checkbox size
+@cbSize: .32rem;
